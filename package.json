@@ -1,0 +1,19 @@
+{
+  "name": "stupid-bot",
+  "version": "0.0.1",
+  "description": "Discord bot who can do stuff for you",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "author": "Gaurav K",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
